@@ -1,0 +1,5 @@
+This is a test program to check the execution time of various parallel operations that would be used in counting lines and words.
+Use it by wctest alice*.txt in order to count the 10 supplied text files in parallel.
+It will measure several alternative functions and display the count.   It uses the argv_expand to enable wildcards on windows.
+It hasn't been tested on linux.
+
